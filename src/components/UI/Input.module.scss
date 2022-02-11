@@ -1,0 +1,11 @@
+@use "../../assets/_assets.scss";
+
+.primary--input {
+	background-color: transparent;
+	border: none;
+	box-shadow: var(--box-shadow);
+	text-transform: none;
+	padding: .5rem .8rem;
+	font-size: 1.6rem;
+	width: 100%;
+}

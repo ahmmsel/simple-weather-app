@@ -1,0 +1,17 @@
+:root {
+	--primary-bg: #3d6cb9;
+	--primary-color: #c5e3f6;
+	--box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+	--item-color: #364f6b;
+}
+
+@mixin btn {
+	outline: none;
+	padding: .5rem .8rem;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	cursor: pointer;
+	&:hover {
+		filter: brightness(80%);
+	}
+}

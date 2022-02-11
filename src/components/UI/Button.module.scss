@@ -1,0 +1,21 @@
+@use "../../assets/_assets.scss" as use;
+
+.primary--btn {
+	@include use.btn;
+	background-color: var(--item-color);
+	border: none;
+	width: 100%;
+	&:hover {
+		filter: brightness(80%);
+	}
+}
+
+.secondary--btn {
+	@include use.btn;
+	background-color: transparent;
+	border: dashed .1rem var(--item-color);
+	width: 100%;
+	&:hover {
+		filter: brightness(80%);
+	}
+}
